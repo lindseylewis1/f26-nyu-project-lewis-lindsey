@@ -105,12 +105,15 @@ main {
    accent-color: #008080;
     margin-right: 8px; 
 }
-.school-gallery {
+
+.dynamic-content {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
     width: 100%;
-    max-width: 900px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .school{
     border: 1px solid #ddd;
