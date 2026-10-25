@@ -122,9 +122,22 @@ main {
     box-sizing: border-box;
 }
 .school img {
-    width: 100%;
-    height: 200px;
+    width: 90%;
+    height: 275px;
     object-fit: cover;
     display: block;  
 }
+.school a {
+    display: inline-block;
+    background-color: #008C95;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
 
+.school a:hover {
+    background-color: #006B73;
+}
