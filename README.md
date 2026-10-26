@@ -2,11 +2,11 @@
 
 **Fixed today:**
 - Closed Feature, Feature2, and Action pages with appropriate closing html
-- 
+- Edited fonts and colors according to my style tile
 
 **Still missing (building before the layout assignment):**
-- [ ] 
-- [ ] 
+- [Yellow buttons in Feature 2 ] 
+- [Image in Feature 1 ] 
 
 **One thing I couldn't figure out:**
 
