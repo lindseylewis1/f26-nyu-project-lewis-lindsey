@@ -19,7 +19,7 @@ header h1 {
 nav {
     width: 220px;
     flex-shrink: 0;
-    background-color: white;
+    background-color: #FCF3D6;
     padding: 25px 15px;
     border-right: 1px solid #ddd;
     display: flex;
@@ -34,19 +34,20 @@ nav a {
     color: black;
     text-decoration: none;
     border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 main {
     flex: 1;
     min-width: 0;
-    padding: 35px;
+    padding: 24px;
 }
 
 .square-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 25px;
+    gap: 24px;
     width: 100%;
     max-width: 900px;
 }
@@ -61,7 +62,7 @@ main {
 }
 
 .filter-button {
-     background-color: #008080;
+     background-color: #2CA7AD;
     color: white;
     padding: 10px 18px;
     border: none;
@@ -71,13 +72,14 @@ main {
 }
 
 .favorite-button {
-        background-color: #008080;
+        background-color: #2CA7AD;
     color: white;
     padding: 10px 18px;
     border: none;
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .filter-list{
@@ -85,11 +87,11 @@ main {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    font-family: Arial, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 .filter-list h2 {
-   color: #008080;
+   color: #2CA7AD;
     font-size: 20px;
     margin-top: 0; 
 }
@@ -102,7 +104,7 @@ main {
 }
 
 .filter-list input {
-   accent-color: #008080;
+   accent-color: #2CA7AD;
     margin-right: 8px; 
 }
 
@@ -129,15 +131,16 @@ main {
 }
 .school a {
     display: inline-block;
-    background-color: #008C95;
+    background-color: #2CA7AD;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 10px;
-    font-weight: bold;
+    font-weight: thin;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .school a:hover {
-    background-color: #006B73;
+    background-color: #2CA7AD;
 }
