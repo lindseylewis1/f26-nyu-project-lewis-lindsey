@@ -1,3 +1,12 @@
+## Weeky Update - [November 1]
+
+**Added**
+-Media Query for Feature_2 HTML page 
+-Corrected grid structure and added a new Javascript display for Feature_2
+
+
+
+
 ## Structure Audit — [October 26]
 
 **Fixed today:**
