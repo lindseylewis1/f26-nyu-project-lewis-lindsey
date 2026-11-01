@@ -3,7 +3,14 @@
 **Added**
 -Media Query for Feature_2 HTML page 
 -Corrected grid structure and added a new Javascript display for Feature_2
+-Deviated my media query at 769px because that is what ChatGPT said is the best for a mobile vs desktop break. 
 
+**Challenges**
+-Had a hard time setting up layout to mobile and then desktop since my original build has been mostly desktop
+-Having a hard time adding buttons to the Feature_2 page, and may edit my mockup to remove the buttons
+
+**Figma Mockups**
+https://www.figma.com/design/fkIpAgOvPY9w1rEAX0vdWr/Lindsey_Assignment4_Mockups?t=344bZeTMpXwgxmw8-0
 
 
 
