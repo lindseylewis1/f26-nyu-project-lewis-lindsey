@@ -16,6 +16,7 @@ header h1 {
     width: 100%;
 }
 
+/* Navigation Menu*/
 nav {
     width: 220px;
     flex-shrink: 0;
@@ -37,13 +38,13 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 main {
     flex: 1;
     min-width: 0;
     padding: 24px;
 }
 
+/* hero: three columns, 2 rows to display all 6 school tiles on the page */
 .square-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -108,6 +109,7 @@ main {
     margin-right: 8px; 
 }
 
+/* hero: three columns, 2 rows to display all 6 schools equally on the page */
 #school-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -143,4 +145,22 @@ main {
 
 .school a:hover {
     background-color: #2CA7AD;
+}
+
+.sps-card {
+    width: 90%;
+    height: 275px;
+    object-fit: cover;
+    display: block; 
+}
+
+/* hero: two columns, to display favorites in a smaller list than the hero */
+#school-favorite {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }

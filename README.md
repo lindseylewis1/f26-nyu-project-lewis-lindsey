@@ -9,6 +9,7 @@
 - [Image in Feature 1 ] 
 
 **One thing I couldn't figure out:**
+I'm having trouble figuring out Feature_2 where it displayes another set of schools. I added additional Javascript, however I'm having troulbe displaying it on my Feature_2 HTML
 
 
 ## Assignment 6 Comments:
