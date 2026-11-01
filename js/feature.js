@@ -1,6 +1,14 @@
+console.log("Feature JavaScript is working!");
+
+console.log(schools_2);
+
 const gallery = document.getElementById("school-favorite");
 
-schools.forEach(function (school) {
+console.log(gallery);
+
+const favoriteGallery = document.getElementById("school-favorite");
+
+schools_2.forEach(function (school) {
   const schoolDiv = document.createElement("div");
   schoolDiv.className = "school"; 
 
@@ -23,7 +31,7 @@ schools.forEach(function (school) {
   schoolLink.target = "_blank"; 
   schoolDiv.appendChild(schoolLink);
 
-  gallery.appendChild(schoolDiv);
+  favoriteGallery.appendChild(schoolDiv);
 });
 
 
