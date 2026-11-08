@@ -1,7 +1,7 @@
 ## Weekly Update - [November 8]
 **Latest mockups:** https://www.figma.com/design/fkIpAgOvPY9w1rEAX0vdWr/Lindsey_Assignment4_Mockups?node-id=0-1&m=dev&t=hF3Vm1bwZubo0orF-1
 
-**Live site:** [link, once published]
+**Live site:** 
 
 **State Plan**
 - **User story:** As a student I want _to see my total filters so that I know how many filters were selected.
