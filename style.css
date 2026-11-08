@@ -209,3 +209,36 @@ main {
         height: 400px;
     }
 }
+
+/* MOBILE LAYOUT to stack nav menu on top of conent on mobile */
+@media screen and (max-width: 768px) {
+
+    /* Stack navigation and main content vertically */
+    .layout {
+        flex-direction: column;
+    }
+
+    /* Make navigation stretch across the screen */
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    /* Display navigation links horizontally */
+    nav a {
+        display: inline-block;
+        margin: 4px;
+        padding: 10px;
+    }
+
+    /* Make main content use the full screen width */
+    main {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+}
