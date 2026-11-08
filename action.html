@@ -34,12 +34,17 @@
             Select your filters below, and press the Apply Filters button.
         </p> 
 
+        <button type ="button" id="apply-filters">
+        Apply Filters (<span id="selected-count">0</span>)
+    </button>
+
+
    <div class="filter-list">
     <h2>Filter Programs</h2>
 
-    <button type ="button" id="apply-filters">
-        Apply Filters
-    </button>
+<!-- Adding a total counter so user tracks how many filters are selected-->
+    <p>Total Filter Clicks: <span id="total-filter-clicks">0</span></p>
+
 
 <!-- Filter List -->
     <label>

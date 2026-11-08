@@ -2,13 +2,9 @@
 **Latest mockups:** [link]
 **Live site:** [link, once published]
 
-## Project Log
-Add a new entry at the top each week.
-
-### Week 8 — [dateNovember 8]
 
 **State Plan**
-- **User story:** As a ___, I want ___ so that ___.
+- **User story:** As a _student__, I want _to see my total filters__ so that _I know how many filters were selected__.
 - **What does the page remember?**
 - **What does it start at?**
 - **What changes it?**
