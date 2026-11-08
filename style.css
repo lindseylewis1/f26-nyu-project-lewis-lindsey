@@ -98,7 +98,7 @@ main {
 }
 
 .filter-list label {
-  display: block;
+  display: flex;
     margin: 12px 0;
     font-size: 15px;
     cursor: pointer;  
@@ -107,6 +107,18 @@ main {
 .filter-list input {
    accent-color: #2CA7AD;
     margin-right: 8px; 
+}
+
+#apply-filters {
+  background-color: #2CA7AD;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;  
 }
 
 /* hero: three columns, 2 rows to display all 6 schools equally on the page */
