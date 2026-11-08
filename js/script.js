@@ -25,3 +25,7 @@ schools.forEach(function (school) {
 
   gallery.appendChild(schoolDiv);
 });
+
+let 
+const myButton = document.getElementById("apply-filters");
+
