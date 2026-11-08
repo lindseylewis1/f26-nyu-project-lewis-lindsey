@@ -1,3 +1,28 @@
+## Weekly Update - [November 8]
+**Latest mockups:** [link]
+**Live site:** [link, once published]
+
+## Project Log
+Add a new entry at the top each week.
+
+### Week 8 — [dateNovember 8]
+
+**State Plan**
+- **User story:** As a ___, I want ___ so that ___.
+- **What does the page remember?**
+- **What does it start at?**
+- **What changes it?**
+- **What does the user see?**
+- **What does the `if/else` decide?**
+
+**What changed:**
+**What was hard, and what I tried:**
+**What happened when I tried to break it:**
+**What I learned or changed my mind about:**
+**Question for Joey:**
+**Next week's goal:**
+**AI use:**
+
 ## Weeky Update - [November 1]
 
 **Added**
