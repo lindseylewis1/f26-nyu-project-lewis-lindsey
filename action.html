@@ -1,80 +1,133 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>My Project</title>
+
     <link rel="stylesheet" href="style.css" />
-    <script src="./js/action.js"></script>
-  </head>
-  <body>
+
+    <!-- JavaScript Files -->
+    <script src="js/school.js" defer></script>
+    <script src="js/action.js" defer></script>
+
+</head>
+
+<body>
+
     <!-- HEADER -->
-<header>
-    <h1>New York University</h1>
-</header>
-
-<!-- NAV -->
-<div class="layout">
-
-    <nav>
-        <h2>MENU</h2>
-
-        <a href="#home" class="active">Home</a>
-        <a href="#schools">Schools</a>
-        <a href="#admissions">Admissions</a>
-        <a href="#Favorites">Favorites</a>
-        <a href="#Profile">Profile</a>
-    </nav>
+    <header>
+        <h1>New York University</h1>
+    </header>
 
 
-   <div class="filter-list">
-    <h2>Filter Programs</h2>
+    <!-- MAIN LAYOUT -->
+    <div class="layout">
 
-    <!-- Action Button -->
-        <button type ="button" id="apply-filters">
-        Apply Filters (<span id="selected-count">0</span>)
-    </button>
+        <!-- NAVIGATION -->
+        <nav>
+            <h2>MENU</h2>
 
-<!-- Adding a total counter so user tracks how many filters are selected-->
-    <p>Total Filter Clicks: <span id="total-filter-clicks">0</span></p>
+            <a href="#home" class="active">Home</a>
+            <a href="#schools">Schools</a>
+            <a href="#admissions">Admissions</a>
+            <a href="#Favorites">Favorites</a>
+            <a href="#Profile">Profile</a>
+        </nav>
 
 
-<!-- Filter List -->
-    <label>
-        <input type="checkbox" name="format" value="in-person">
-        In-person
-    </label>
+        <!-- FILTER SECTION -->
+        <div class="filter-list">
 
-    <label>
-        <input type="checkbox" name="format" value="online">
-        Online
-    </label>
+            <h2>Filter Programs</h2>
 
-    <label>
-        <input type="checkbox" name="format" value="hybrid">
-        Hybrid
-    </label>
+            <!-- FILTER CLICK COUNTER -->
+            <p>
+                Total Filter Clicks:
+                <span id="total-filter-clicks">0</span>
+            </p>
 
-    <label>
-        <input type="checkbox" name="housing" value="available">
-        Housing Available
-    </label>
 
-    <label>
-        <input type="checkbox" name="degree" value="masters">
-        Master's
-    </label>
+            <!-- DELIVERY METHOD -->
+            <h3>Delivery Method</h3>
 
-    <label>
-        <input type="checkbox" name="degree" value="doctorate">
-        Doctorate's
-    </label>
-</div>  
+            <label>
+                <input
+                    type="checkbox"
+                    data-filter="delivery"
+                    value="In-person">
+                In-person
+            </label>
 
- </main>
+            <label>
+                <input
+                    type="checkbox"
+                    data-filter="delivery"
+                    value="Online">
+                Online
+            </label>
 
-</div>
+            <label>
+                <input
+                    type="checkbox"
+                    data-filter="delivery"
+                    value="Hybrid">
+                Hybrid
+            </label>
 
+
+            <!-- HOUSING -->
+            <h3>Housing</h3>
+
+            <label>
+                <input
+                    type="checkbox"
+                    data-filter="housing"
+                    value="housing">
+                Housing Available
+            </label>
+
+
+            <!-- DEGREE TYPE -->
+            <h3>Degree Type</h3>
+
+            <label>
+                <input
+                    type="checkbox"
+                    data-filter="degree"
+                    value="Master's">
+                Master's
+            </label>
+
+            <label>
+                <input
+                    type="checkbox"
+                    data-filter="degree"
+                    value="Doctorate">
+                Doctorate
+            </label>
+
+
+            <!-- RESET BUTTON -->
+            <button type="button" id="reset-filters">
+                Reset Filters
+            </button>
+
+        </div>
+
+
+        <!-- SCHOOL GALLERY -->
+        <main id="schools">
+
+            <h2>Explore NYU Schools</h2>
+
+            <div id="school-gallery"></div>
+
+        </main>
+
+    </div>
 
 </body>
 </html>
