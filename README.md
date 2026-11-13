@@ -1,3 +1,29 @@
+### Week 9 — November 15
+
+**Render Plan**
+- **User story:** As a student, I want to filter my schools so that I can narrow schools with specific features
+- **State:  The page remembers the filters selected and display of the school tiles
+- **What changes it:** The clicking of each filter changes the state
+- **What render() draws:** I am using the schools array from my school javascript file. The render draws from the additional elements I added to the schools array to render the specific schools selected
+- **The if inside the loop:** If school contains the specific labels I added EX: Housing, DeliveryMode, and Degree Level, then display the current school card
+- **What else render() works out:** The render also displays the count of the total schools that fit the specific function selected.
+
+**What changed:**
+**Patching vs. rendering:** In 2–3 sentences, what was different about your interaction before and after this week?
+My filters and my entire Action page are differently displayed because I realized I can't have filters without showing the user what is being filtered. I needed to include my school array.
+**What was hard, and what I tried:**
+I was hard to figure out how to add onto my current javascript files. I kept thinking I needed to add more js files for every html page. Luckily, I found I could add additional variables and labels to my current school arrays and display it on different pages of my html rather than creating a new array for every fucntion or rendering I wanted.
+**What happened when I tried to break it:**
+It broke and I got nervous that it broke all around. My console messages were helpful
+**What I learned or changed my mind about:**
+I changed my mind about the displa of my action page, and edited my figma wireframes
+**Question for Joey:**
+How can I connect all of my pages? Right now, my menu and navigation doesn't fully connect to my other HTML pages, and I'd like to understand how to do that.
+**Next week's goal:**
+Next week, I'd like to work on the functionality of the menu navigation where I can hover over a menu line and click. Then I'd like it to take me to the correct page.
+**AI use:**
+I used AI to help troubleshoot my school array javascript and Action page HTML page. I worked on resolving JavaScript file-path errors, displaying school information dynamically, and improving the filtering function. I also troulbeshooted the filter counter so it accurately reflects the number of currently selected filters rather than counting every click. AI provided coding suggestions, explanations, and debugging support, while I implemented and tested the changes in my project. All final decisions and design choices were my own.
+
 ## Weekly Update - [November 8]
 **Latest mockups:** https://www.figma.com/design/fkIpAgOvPY9w1rEAX0vdWr/Lindsey_Assignment4_Mockups?node-id=0-1&m=dev&t=hF3Vm1bwZubo0orF-1
 
