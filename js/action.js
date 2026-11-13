@@ -115,12 +115,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Find click counter
     const clickDisplay = document.getElementById("total-filter-clicks");
 
-    // Track filter clicks and apply filters
+    // Track filter clicks 
     filters.forEach((filter) => {
 
         filter.addEventListener("change", () => {
 
-            // Update click counter
             totalFilterClicks++;
 
             if (clickDisplay) {
