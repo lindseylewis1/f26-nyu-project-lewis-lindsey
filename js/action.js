@@ -119,12 +119,10 @@ document.addEventListener("DOMContentLoaded", () => {
     filters.forEach((filter) => {
 
         filter.addEventListener("change", () => {
-
-            totalFilterClicks++;
-
-            if (clickDisplay) {
-                clickDisplay.textContent = totalFilterClicks;
-            }
+            const selectedCount = document.querySelectorAll(".filter-list input:checked").length;
+            totalFilterClicks = selectedCount;
+            clickDisplay.textContent = totalFilterClicks;
+        
 
             console.log("Total Filter Clicks:", totalFilterClicks);
 
