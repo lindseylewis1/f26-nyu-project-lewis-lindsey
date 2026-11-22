@@ -1,3 +1,20 @@
+### Week 10 — [November 22]
+
+**Event Plan**
+- **User story:** As a student, I want to search NYU schools so that I can find the school I want to see.
+- **The event:** Which event, on which element? Why does it fit what the user is doing? I will be adding a search bar in the index page to help users find their corrcect program
+- **State:** What does the page remember, and what does it start at? Is it new, or your Week 9 state?
+- **My function:** What question does it answer? What goes in (the parameter), and what comes back (the return)?
+
+**What changed:**
+**Why redraw on every event:** In 2–3 sentences, why does your handler call `render()` instead of changing the page itself?
+**What was hard, and what I tried:**
+**What happened when I tried to break it:**
+**What I learned or changed my mind about:**
+**Question for Joey:**
+**Next week's goal:**
+**AI use:**
+
 ### Week 9 — November 15
 
 **Render Plan**

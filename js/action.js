@@ -4,7 +4,6 @@
 
 let totalFilterClicks = 0;
 
-
 /* =====================================
    2. FILTER SETTINGS
 ===================================== */
@@ -14,7 +13,6 @@ const selectedFilters = {
     housing: false,
     degree: []
 };
-
 
 /* =====================================
    3. RENDER SCHOOL CARDS
