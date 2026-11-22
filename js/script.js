@@ -45,6 +45,7 @@ displaySchools(schools);
 
 // Search functionality
 searchInput.addEventListener("input", function () {
+console.log("schools works");
 
   const searchTerm = searchInput.value.toLowerCase().trim();
 

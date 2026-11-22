@@ -2,18 +2,19 @@
 
 **Event Plan**
 - **User story:** As a student, I want to search NYU schools so that I can find the school I want to see.
-- **The event:** Which event, on which element? Why does it fit what the user is doing? I will be adding a search bar in the index page to help users find their corrcect program
-- **State:** What does the page remember, and what does it start at? Is it new, or your Week 9 state?
-- **My function:** What question does it answer? What goes in (the parameter), and what comes back (the return)?
-
+- **The event: I will be adding a search bar in the index page to help users find their corrcect program
+- **State:** The page will start with a full school display and then as users search, it will only display the school associated with the keywords that are input into the search bar. The schools will reappear as the search bar input is cleared
+- **My function:** The function answers what school is associated with specific searchable inputs. 
+This allos the user to only see the schools they need to see.
 **What changed:**
-**Why redraw on every event:** In 2–3 sentences, why does your handler call `render()` instead of changing the page itself?
-**What was hard, and what I tried:**
-**What happened when I tried to break it:**
-**What I learned or changed my mind about:**
-**Question for Joey:**
-**Next week's goal:**
+**Why redraw on every event:** Instead of changing the HTML elements on my index page, the render updated the school display and the render rebuilds the school gallery accordingly. This way the HTML is not having to be rebuilt each time.
+**What was hard, and what I tried:** It was hard determining where to put the search bar that would be easier for a user and also in a place where the HTML and javascript are not already busy. When trying to add to the Action page, I was worried it would affect the filter javascript already built. To make it easier and since my school array already has the data built, I wanted to build the render function on the index page for a clean code.
+**What happened when I tried to break it:** I tried to break it by removing a word in the schools array and it did indeed break the render function when the keyword I typed was no longer in the schools data array. Breaking my code always makes me nervous so I chose this very low-stakes break to test. 
+**What I learned or changed my mind about:** I've started changing my mind about my action.html. Right now, it essentially functions as another homepage because it's diplaying the same schools. However, I thought the search bar belonged on the index page. But now I'm changing my mind on my entire wireframe set up.
+**Question for Joey:** How can I make my Feature 2 page better? Right now the layout overall is not the best, but I want tomake it more of a page description. Also, do you have any suggestions for what to turn my action.html page into? I like the functionality behind it, but I'm not sure it makes sense withi the entire wireframe.
+**Next week's goal:** To make my Feature 2 html look better
 **AI use:**
+I used AI as a learning and troubleshooting tool to help implement a search bar within my NYU school gallery Index page using JavaScript. AI helped me understand how to structure the search functionality, develop a reusable render function, and connect the search handler to the existing school data. The overall design and functional decisions were my own.
 
 ### Week 9 — November 15
 
