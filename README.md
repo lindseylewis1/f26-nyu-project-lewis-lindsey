@@ -1,3 +1,46 @@
+### Week 11 — In-Class Assignment
+USER TEST NOTES (filled in by the maker)
+Maker: Lindsey
+Tester:
+
+Who the user is (one sentence): A prospective NYU graduate student 
+
+Task 1 (full main story): A prospective NYU graduate student wants to narrow down the list of available NYU graduate programs 
+  Completed?  Yes / With trouble / No
+  Where they hesitated or got stuck:
+  What they said they expected:
+
+Task 2: Use the search engine to search for a school
+  Completed?  Yes / With trouble / No
+  Where they hesitated or got stuck:
+  What they said they expected:
+
+Task 3 (optional): Click the school tile to learn more about the school
+  Completed?  Yes / With trouble / No
+  Where they hesitated or got stuck:
+  What they said they expected:
+
+Tester's one-line takeaway (ask them at the end):
+"The one thing I'd fix first is..."
+
+USER STORY AUDIT
+
+MAIN STORY: A prospective NYU graduate student wants to narrow down the list of available NYU graduate programs 
+
+Criterion 1: Users can free type the program or school into a search engine 
+  Status ✅ 
+  Notes:
+
+Criterion 2: Users can select one or multiple filters within the search engine 
+  Status ✅ 
+  Notes: Available on a different page outside of the index
+
+Criterion 3: Users can unselect or edit their search 
+  Status ✅
+  Notes: Users can do this for all pages
+
+
+
 ### Week 10 — [November 22]
 
 **Event Plan**
