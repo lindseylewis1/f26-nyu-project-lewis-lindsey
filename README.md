@@ -1,4 +1,20 @@
 ### Week 11 — In-Class Assignment
+PUNCH LIST
+
+MUST SHIP (aim for 3–5 items; note where each came from: story audit or user test)
+-connect the index page to the home button
+-Fix the Master's filter 
+-write descriptions for all school tiles
+-Add a "Add to filters" button
+
+NICE TO HAVE
+-make the search engine bigger
+-
+
+CUT (item, then why)
+-not vut, but redo the feature 2 page. I want to connect the SPS Learn More button to the school profile page to make it a seamless experience
+-
+
 USER TEST NOTES (filled in by the maker)
 Maker: Lindsey
 Tester: Yunqi
@@ -7,18 +23,18 @@ Who the user is (one sentence): A prospective NYU graduate student
 
 Task 1 (full main story): A prospective NYU graduate student wants to narrow down the list of available NYU graduate programs 
   Completed?  Yes 
-  Where they hesitated or got stuck:
-  What they said they expected:
+  Where they hesitated or got stuck: Were not sure how the website worked or where to go at first
+  What they said they expected: They thought it was an advising website
 
 Task 2: Use the search engine to search for a school
   Completed?  Yes
-  Where they hesitated or got stuck:
-  What they said they expected:
+  Where they hesitated or got stuck: Were unable to find the search bar at first
+  What they said they expected: Thought the search would be larger
 
 Task 3 (optional): Click the school tile to learn more about the school
   Completed?  Yes 
-  Where they hesitated or got stuck:
-  What they said they expected:
+  Where they hesitated or got stuck: Did not get stuck, the buttons were the first thing they clicked
+  What they said they expected: The buttons and tiles worked as expected
 
 Tester's one-line takeaway (ask them at the end):
 "The one thing I'd fix first is...making the search engine bigger and specify that this is for Graduate programs
