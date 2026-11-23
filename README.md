@@ -1,27 +1,27 @@
 ### Week 11 — In-Class Assignment
 USER TEST NOTES (filled in by the maker)
 Maker: Lindsey
-Tester:
+Tester: Yunqi
 
 Who the user is (one sentence): A prospective NYU graduate student 
 
 Task 1 (full main story): A prospective NYU graduate student wants to narrow down the list of available NYU graduate programs 
-  Completed?  Yes / With trouble / No
+  Completed?  Yes 
   Where they hesitated or got stuck:
   What they said they expected:
 
 Task 2: Use the search engine to search for a school
-  Completed?  Yes / With trouble / No
+  Completed?  Yes
   Where they hesitated or got stuck:
   What they said they expected:
 
 Task 3 (optional): Click the school tile to learn more about the school
-  Completed?  Yes / With trouble / No
+  Completed?  Yes 
   Where they hesitated or got stuck:
   What they said they expected:
 
 Tester's one-line takeaway (ask them at the end):
-"The one thing I'd fix first is..."
+"The one thing I'd fix first is...making the search engine bigger and specify that this is for Graduate programs
 
 USER STORY AUDIT
 
